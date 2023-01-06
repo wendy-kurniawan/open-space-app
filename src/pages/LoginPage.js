@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import LoginInput from '../components/LoginInput'
 import { asyncSetAuthUser } from '../states/authUser/action'
 
-function LoginPage() {
+function LoginPage () {
   const dispatch = useDispatch() // @TODO: get dispatch function from store
 
   const onLogin = ({ id, password }) => {
